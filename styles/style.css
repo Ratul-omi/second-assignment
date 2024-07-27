@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama?styles=170364');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* border: 1px solid red; */
+    max-width: 1440px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles */
+
+section {
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.section-des {
+    font-size: .90rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.section-title {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.btn-primary {
+    border-radius: 3rem;
+    border: none;
+    background-color: rgb(230, 83, 60);
+    padding: 1rem 2.6rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.btn-secondary {
+    border-radius: 3rem;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1rem 2.6rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* nav styles */
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: rgb(230, 83, 60);
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+.icon {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 3rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    height: 46px;
+    padding: 4px;
+    padding-left: 4px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li span {
+    border-radius: 4rem;
+    background: rgb(230, 83, 60);
+    padding: .5rem 1.25rem;
+}
+
+/* Banner part styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.banner-img-sec {
+    position: relative;
+    /* width: 100%; */
+}
+
+.banner-content {
+    max-width: 600px;
+
+}
+
+.banner-title {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 125%;
+    margin-bottom: 1.25rem;
+}
+
+.banner-title span {
+    font-family: 'Miama', sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.banner-img {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(230, 83, 60, 1);
+    background: rgba(230, 83, 60, 1);
+
+}
+
+#btn {
+    padding: 5px;
+    position: absolute;
+    left: -60px;
+    top: 456px;
+}
+
+.btn-1 {
+    /* padding: 2px 4px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-content {
+    /* align-items: center; */
+    text-align: start;
+}
+
+#btn2 {
+    padding: .75rem .5rem;
+    /* width: 193px;
+height: 98px; */
+    text-align: start;
+
+}
+
+#btn2 {
+    /* margin-top: 0; */
+    position: absolute;
+    right: -10px;
+    top: 120px;
+}
+
+button h4 {
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 5px;
+}
+
+button p {
+    margin: 5px;
+}
+
+/* First part styles starts */
+
+.first-part-imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.first-part-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.first-part-img img {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.first-part-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+
+.first-part-title {
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+
+.imgs-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: -.5rem;
+    padding-bottom: 0;
+}
+
+/* second part styles */
+.second-parts {
+    padding: 2rem;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.second-part-content {
+    width: 50%;
+    height: 50%;
+    align-items: start;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.second-part-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+
+.second-part-img {
+    width: 50%;
+    /* height: 50%; */
+}
+
+.second-part-img img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+/* third section styles */
+
+.third-part-header {
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.table {
+    max-width: 380px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.third-part-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+#box-h {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.box {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: .80rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .80rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    body {
+        font-size: .5rem;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .banner-content {
+        text-align: start;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .banner-title span {
+        font-size: 2.5rem;
+    }
+
+    #btn {
+        left: 8px;
+        top: 372px;
+    }
+
+    /* First part responsive */
+    .first-part-imgs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* second-part respo */
+    .second-parts {
+        flex-direction: column;
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .second-part-title {
+        font-size: 2rem;
+    }
+
+    .second-part-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .second-part-img {
+        width: 100%;
+
+    }
+
+}
