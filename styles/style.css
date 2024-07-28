@@ -17,7 +17,7 @@ body {
 /* shared styles */
 
 section {
-    width: 90%;
+    /* width: 90%; */
     margin: 5rem auto;
 }
 
@@ -31,6 +31,7 @@ section {
     color: rgb(255, 255, 255);
     font-size: 2.5rem;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .btn-primary {
@@ -198,6 +199,10 @@ button p {
 }
 
 /* First part styles starts */
+.first-parts {
+    width: 90%;
+    margin: 0 auto;
+}
 
 .first-part-imgs {
     display: grid;
@@ -239,6 +244,8 @@ button p {
 
 /* second part styles */
 .second-parts {
+    width: 90%;
+    margin: 5rem auto;
     padding: 2rem;
     display: flex;
     gap: 30px;
@@ -279,13 +286,33 @@ button p {
 .third-part-header {
     max-width: 600px;
     margin: 0 auto;
+    margin-bottom: 2rem;
+
 
 }
 
+.third-part {
+    background: rgb(34, 34, 34);
+}
+
+.third-part-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+
+}
+
+.third-form-part {
+    width: 50%;
+} 
+
 .table {
-    max-width: 380px;
+    max-width: 400px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .third-part-title {
@@ -306,6 +333,59 @@ button p {
     font-size: .80rem;
     font-weight: 400;
 }
+.third-part-inputs{
+    width: 50%;
+}
+.inputs {
+    max-width: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(autofill, 1fr);
+    gap: 10px;
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+
+}
+
+.box-input {
+    grid-column: span 2;
+}
+
+ input {
+    padding: .80rem 2.2rem .80rem 1.2rem;
+    border-radius: .5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    overflow:auto;
+}
+
+select {
+    padding: .80rem 2.2rem .80rem 1.2rem;
+    border-radius: .5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    overflow: hidden;
+}
+/* fourth parts style */
+.fourth-parts{
+    width: 90%;
+    margin: 5rem auto;
+}
+.fourth-part-header{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -370,6 +450,10 @@ button p {
     .second-part-title {
         font-size: 2rem;
     }
+    .section-title{
+        font-size: .7rem;
+    }
+
 
     .second-part-content {
         width: 100%;
@@ -381,4 +465,28 @@ button p {
 
     }
 
+    /* third part respo */
+    .section-title{
+        font-size: 2.1rem;
+    }
+    .third-part-title{
+        font-size: 1.4rem;
+    }
+
+
+    .third-part-header{
+        margin: 1rem;
+        margin-bottom: 3rem;       
+    }
+    
+    .third-part-content {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .third-form-part  {
+        width: 100%;
+    } 
+    .third-part-inputs {
+        width: 100%;
+    }  
 }
