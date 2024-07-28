@@ -337,37 +337,31 @@ button p {
     width: 50%;
 }
 .inputs {
-    max-width: 600px;
-    width: 100%;
+    /* max-width: 600px; */
+    /* width: 100%; */
     display: grid;
-    grid-template-columns: repeat(autofill, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-bottom: 1.5rem;
     margin-top: 2.5rem;
 
 }
 
-.box-input {
+#box-input {
     grid-column: span 2;
 }
 
- input {
+ .input-final {
+    width: 100%;
     padding: .80rem 2.2rem .80rem 1.2rem;
     border-radius: .5rem;
     background: rgba(255, 255, 255, 0.1);
     border: none;
     color: rgba(255, 255, 255, 0.6);
-    overflow:auto;
+    box-sizing: border-box;
+    display: block;
 }
 
-select {
-    padding: .80rem 2.2rem .80rem 1.2rem;
-    border-radius: .5rem;
-    background: rgba(255, 255, 255, 0.1);
-    border: none;
-    color: rgba(255, 255, 255, 0.6);
-    overflow: hidden;
-}
 /* fourth parts style */
 .fourth-parts{
     width: 90%;
