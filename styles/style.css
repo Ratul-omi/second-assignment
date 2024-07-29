@@ -167,6 +167,13 @@ nav ul li span {
     gap: 5px;
 }
 
+.circle i {
+    font-size: 1.5rem;
+    padding: 20%;
+    margin-left: 6%;
+    color: rgb(255, 255, 255);
+}
+
 .btn-content {
     /* align-items: center; */
     text-align: start;
@@ -183,7 +190,7 @@ height: 98px; */
 #btn2 {
     /* margin-top: 0; */
     position: absolute;
-    right: -10px;
+    right: -5px;
     top: 120px;
 }
 
@@ -307,7 +314,7 @@ button p {
 
 .third-form-part {
     width: 50%;
-} 
+}
 
 .table {
     max-width: 400px;
@@ -333,9 +340,11 @@ button p {
     font-size: .80rem;
     font-weight: 400;
 }
-.third-part-inputs{
+
+.third-part-inputs {
     width: 50%;
 }
+
 .inputs {
     /* max-width: 600px; */
     /* width: 100%; */
@@ -351,7 +360,7 @@ button p {
     grid-column: span 2;
 }
 
- .input-final {
+.input-final {
     width: 100%;
     padding: .80rem 2.2rem .80rem 1.2rem;
     border-radius: .5rem;
@@ -363,32 +372,105 @@ button p {
 }
 
 /* fourth parts style */
-.fourth-parts{
+.fourth-parts {
     width: 90%;
     margin: 5rem auto;
 }
-.fourth-part-header{
+
+.fourth-part-header {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
 }
 
+.fourth-part-content {
+    border-radius: 1.4rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 
+}
 
+.fourth-part-content img {
+    width: 100%;
+    height: 300px;
+    border-radius: .5rem;
+    filter: brightness(75%);
 
+}
 
+.fourth-box {
+    position: relative;
+}
 
+.fourth-part-box-cont {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
 
+.fourth-box-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
 
+.fourth-box-des {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+}
 
+/* footer style */
+footer {
+    background: rgba(255, 255, 255, 0.1);
+}
 
+.footer-part {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    justify-items: end;
+    gap: 40px;
 
+}
 
+.section-tit {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 
+.footer-title {
+    color: rgb(230, 83, 60);
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
 
+    
+.row-2 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.style-hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 90%;
+    margin: 1rem auto;
+}
 
-
-
+.final-part{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
 
 
 
@@ -398,12 +480,21 @@ button p {
         font-size: .5rem;
     }
 
+    button h4 {
+        font-size: 1.2rem;
+    }
+
+    .section-des {
+        font-size: .75rem;
+    }
+
     nav ul {
         display: none;
     }
 
     .icon {
         display: block;
+        font-size: 1.5rem;
     }
 
     .banner {
@@ -444,7 +535,8 @@ button p {
     .second-part-title {
         font-size: 2rem;
     }
-    .section-title{
+
+    .section-title {
         font-size: .7rem;
     }
 
@@ -460,27 +552,40 @@ button p {
     }
 
     /* third part respo */
-    .section-title{
+    .section-title {
         font-size: 2.1rem;
     }
-    .third-part-title{
+
+    .third-part-title {
         font-size: 1.4rem;
     }
 
 
-    .third-part-header{
+    .third-part-header {
         margin: 1rem;
-        margin-bottom: 3rem;       
+        margin-bottom: 3rem;
     }
-    
+
     .third-part-content {
         flex-direction: column;
         gap: 3rem;
     }
-    .third-form-part  {
+
+    .third-form-part {
         width: 100%;
-    } 
+    }
+
     .third-part-inputs {
         width: 100%;
-    }  
+    }
+
+    /* fourth-part repo */
+    .fourth-part-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* footer repo */
+    .footer-part{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: start;
+    }
 }
