@@ -439,7 +439,7 @@ button p {
 
 .fifth-left {
     max-width: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/cat1.png.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/exercise3.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -452,7 +452,7 @@ button p {
 
 .fifth-right {
     max-width: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/cat2.png.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/exercise4.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
