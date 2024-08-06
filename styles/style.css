@@ -428,8 +428,8 @@ button p {
 
 /* special styles */
 .special-parts{
-    width: 100%;
-    margin: 0 auto;
+    /* width: 90%; */
+    /* margin: 0 auto; */
 }
 .fifth-part {
     display: grid;
@@ -480,6 +480,7 @@ button p {
 }
 .btn-special:hover{
     transform: scale(1.2);
+    
 }
 
 /* footer style */
