@@ -42,6 +42,7 @@ section {
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -52,6 +53,7 @@ section {
     background-color: rgb(0, 0, 0);
     font-size: 1.2rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* nav styles */
@@ -424,6 +426,62 @@ button p {
     margin-top: 5px;
 }
 
+/* special styles */
+.special-parts{
+    width: 100%;
+    margin: 0 auto;
+}
+.fifth-part {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+
+.fifth-left {
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/cat1.png.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifth-right {
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/cat2.png.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.btn-special {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 38px;
+    background: rgb(230, 83, 60);
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+
+}
+.btn-special:hover{
+    transform: scale(1.2);
+}
+
 /* footer style */
 footer {
     background: rgba(255, 255, 255, 0.1);
@@ -452,20 +510,21 @@ footer {
     margin-bottom: 0;
 }
 
-    
+
 .row-2 p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.2rem;
     font-weight: 400;
 }
-.style-hr{
+
+.style-hr {
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     width: 90%;
     margin: 1rem auto;
 }
 
-.final-part{
+.final-part {
     text-align: center;
     align-content: center;
     margin-bottom: 1rem;
@@ -520,6 +579,12 @@ footer {
         top: 372px;
     }
 
+    .btn-header {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     /* First part responsive */
     .first-part-imgs {
         grid-template-columns: repeat(1, 1fr);
@@ -530,6 +595,8 @@ footer {
         flex-direction: column;
         width: 80%;
         padding: 1rem;
+        gap: 10px;
+        margin: 5rem auto;
     }
 
     .second-part-title {
@@ -583,9 +650,16 @@ footer {
     .fourth-part-content {
         grid-template-columns: repeat(1, 1fr);
     }
-    /* footer repo */
-    .footer-part{
+
+    .fifth-part {
         grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+
+
+    /* footer repo */
+    .footer-part {
+        grid-template-columns: repeat(1, 1fr);
         justify-items: start;
     }
 }
