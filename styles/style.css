@@ -437,6 +437,18 @@ button p {
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
 }
+.special-title{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.special-des{
+    font-size: .75rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+
+}
 
 .fifth-left {
     max-width: 600px;
@@ -657,11 +669,25 @@ footer {
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
     }
-
-
     /* footer repo */
     .footer-part {
         grid-template-columns: repeat(1, 1fr);
         justify-items: start;
+    }
+    .special-title{
+        font-size: 1.6rem;
+    }
+    .special-des{
+        font-size: .6rem;
+    }
+    .btn-special{
+     color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 20px;
+    background: rgb(230, 83, 60);
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
     }
 }
