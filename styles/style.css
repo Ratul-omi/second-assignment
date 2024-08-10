@@ -428,8 +428,9 @@ button p {
 
 /* special styles */
 .special-parts{
-    /* width: 90%; */
-    /* margin: 0 auto; */
+    width: 90%;
+    margin: 0 auto;
+    
 }
 .fifth-part {
     display: grid;
